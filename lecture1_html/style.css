@@ -1,0 +1,24 @@
+body {
+    background-color:cornsilk;
+    width: 800px;
+    margin: 0 auto;
+
+}
+h1{
+    color:crimson;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 200 auto;
+}
+
+#date h1{
+    color:blueviolet;
+    background-color: chartreuse;
+}
+
+section.yt h1{
+    color:aqua;
+    background-color: rgb(25, 107, 0);
+}

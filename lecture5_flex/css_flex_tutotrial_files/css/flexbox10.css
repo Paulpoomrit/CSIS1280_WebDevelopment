@@ -1,0 +1,27 @@
+
+body {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+}
+
+.container {
+	display: flex;
+    flex-wrap: wrap;
+	border: 1px solid #333;
+	width: 70%;
+	justify-content: center;
+	/* justify-content: space-around; */
+	margin: auto;
+}
+
+
+img {
+		
+	max-width: 250px;
+	/* min-width: 200px; */
+	flex-basis: 100px;
+    flex-grow: 1;
+    padding: 1%;
+	border: 1px solid #333;
+}
