@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+
+/* Body Styles */
+
+body {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 960px;
+   min-width: 640px;
+   width: 95%;
+}
+
+/* Horizontal Navigation Styles */
+nav.horizontalNavigation li {
+   width: 20%;
+   float: left;
+   font-size: 0.7em;
+}
+
+.horizontalNavigation a {
+   display: block;
+   text-align: center;
+}
+
+
+/* Footer Styles */
+footer {
+   background-color: rgb(36, 106, 181);
+   clear: left;
+}
+
+footer::after {
+   clear: both;
+   content: "";
+   display: table;
+}
+
+footer>nav.verticalNavigation {
+   float: left;
+   width: 22%;
+}
+
+footer>section#contactInfo {
+   float: left;
+   width: 34%;
+}
+
+#header_title {
+   text-align: center;
+   font-size: 2em;
+   color: white;
+   text-shadow: 5px 5px 5px black;
+   padding: 50px 10px;
+   background-image: url(header_img.png);
+   background-size: cover;
+}
+
+/* Styles for screens smaller than or equal to 400px wide */
+@media (max-width: 900px) {
+   section#main {
+      padding: 1em;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: "photo"
+                           "descript";
+      grid-gap: 10px;
+      /* border: 1px dashed rgb(153, 255, 0); */
+   }
+
+   section#main .image {
+      grid-area: photo;
+      font-size: 5em;
+      text-align: center;
+      /* border: 1px dashed red; */
+   }
+
+   section#main .logo {
+      display: none;
+   }
+
+   section#main .descript {
+      grid-area: descript;
+      /* border: 1px dashed red; */
+      background-color: bisque;
+      padding: 1em;
+
+      p {
+         line-height: 1.5;
+         /* Increases the space between lines to 1.5 times the font size */
+      }
+   }
+
+   nav.horizontalNavigation li {
+      width: 20%;
+      float: left;
+      font-size: 0.8em;
+   }
+
+}
+
+
+@media (min-width: 901px) {
+   section#main {
+      padding: 1em;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      grid-template-areas: "photo photo"
+                           "logo descript";
+      grid-gap: 10px;
+      /* border: 1px dashed rgb(153, 255, 0); */
+   }
+
+   section#main .image {
+      grid-area: photo;
+      font-size: 5em;
+      text-align: center;
+      /* border: 1px dashed red; */
+   }
+
+
+   section#main .logo {
+      grid-area: logo;
+
+      /* border: 1px dashed yellow; */
+      img {
+         width: 100%;
+      }
+   }
+
+   section#main .descript {
+      grid-area: descript;
+      /* border: 1px dashed red; */
+      background-color: bisque;
+      padding: 1em;
+
+      p {
+         line-height: 1;
+         /* Increases the space between lines to 1.5 times the font size */
+      }
+   }
+
+   .image img {
+      width: 100%;
+   }
+
+}
