@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link href="pp_reset.css" rel="stylesheet" />
+    <link href="pp_styles1.css" rel="stylesheet" />
+    <link href="pp_home.css" rel="stylesheet" />
+    <link href="contactStyle.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <header>
+       <div id="header_title">Paul's Page</div>
+       <!-- <img src="https://picsum.photos/200/50" alt="Pandaisia Chocolates" /> -->
+       <nav class="horizontalNavigation">
+          <ul>
+             <li><a href="pp_home.html">Home</a></li>
+             <li><a href="pp_portfolio.html">My Portfolio</a></li>
+             <li><a href="#">My Courses</a></li>
+             <li><a href="pp_aboutme.html">About Me</a></li>
+             <li><a href="contact.html">Contact</a></li>
+          </ul>
+       </nav>
+    </header>
+    <div class="form">
+        <h1>Contact Me</h1>
+        <form id="contactForm" action="receipt.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+       <nav class="verticalNavigation">
+          <h1>Weblogs</h1>
+          <ul>
+             <li><a href="#">Most Recent</a></li>
+             <li><a href="#">Top Views</a></li>
+             <li><a href="#">Educational</a></li>
+          </ul>
+       </nav>
+       <nav class="verticalNavigation">
+          <h1>Social Media</h1>
+          <ul>
+             <li><a href="https://x.com/"><img src="twittericon.png" alt="" />Twitter</a></li>
+             <li><a href="https://www.linkedin.com"><img src="linkedinicon.png" alt="" />LinkedIn</a></li>
+             <li><a href="https://www.instagram.com/"><img src="fbicon.png" alt="" />Instagram</a></li>
+          </ul>
+       </nav>
+       <nav class="verticalNavigation">
+          <h1>Services</h1>
+          <ul>
+             <li><a href="#">Philosophy Tutoring</a></li>
+             <li><a href="#">Programming Courses Tutoring</a></li>
+             <li><a href="#">3D Art</a></li>
+             <li><a href="#">Coding Projects</a></li>
+          </ul>
+       </nav>
+       <section id="contactInfo">
+          <h1>My Location &amp; Contacts</h1>
+          <p>Vancouver</p>
+          <p>Toll Free: 235-975-4101</p>
+       </section>
+    </footer>
+ </body>
+
+</html>

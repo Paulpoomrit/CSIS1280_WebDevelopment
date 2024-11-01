@@ -1,0 +1,48 @@
+
+img {
+    margin: 10px auto;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+}
+  
+/* ul {
+    text-align: right;
+} */
+  
+/*Sizing*/
+
+.container {
+    margin: 0 auto;
+  }
+  
+.spacer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+.col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#expertise {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+#projects {
+    padding: 50px 10px 25px 10px;
+    font-size: xx-large;
+    margin: 0 0;
+    text-align: center;
+    color: aliceblue;
+}
