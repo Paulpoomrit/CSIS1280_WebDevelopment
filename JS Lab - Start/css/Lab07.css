@@ -1,0 +1,88 @@
+/* Style for input fields */
+input {
+    margin: 5px 0;
+}
+
+/* Style for fieldsets */
+fieldset {
+    width: 220px;
+    padding: 10px 20px;
+    background-color: lightsteelblue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Style for legends */
+legend {
+    background-color: slategray;
+    padding: 0 10px;
+    color: whitesmoke;
+    border-radius: 3px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header h3 {
+    margin: 5px 0;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Calculator area styling */
+#calculatorArea {
+    max-width: 300px; /* Set a maximum width for the calculator area */
+    margin: 0 auto; /* Center the calculator area horizontally */
+    padding: 20px; /* Add padding around the content */
+    background-color: #e3f2fd; /* Light background color for contrast */
+    border: 1px solid #bbdefb; /* Subtle border around the calculator area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+}
+
+#main {
+    height: 77vh;
+}
