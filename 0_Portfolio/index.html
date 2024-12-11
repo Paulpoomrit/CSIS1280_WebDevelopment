@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="./cursor.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="cursor">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </section>
+    <header>
+        <a href="" class = "logo-holder">
+            <div class="logo">P</div>
+            <div class="logo-text">Paul's Portfolio</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#skill-section">Skills</a>
+                </li>
+                <li>
+                    <a href="#project-section">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-section" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class = "hero container" id="home-section">
+            <div class = "hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                        Paul Poomrit
+                    </h1>
+                    <p>
+                        Enthusiastic and detail-focused Software Developer with extensive experience in Unreal Engine and C++.
+                    </p>
+                    <div class="call-to-action"></div>
+                    <a href="./resume/My Resume.pdf" class="button black">
+                        View Resume
+                    </a>
+                    <a href="mailto:paulpoomrit@gmail.com" class="button white">
+                        Contact me
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/Paulpoomrit" target="_blank">
+                            <img src="./imgs/github.png" alt="GitHUb" width="48px">
+                        </a>
+                        <a href="https://www.linkedin.com/in/paul-ummalukacholk-42703723a/" target="_blank">
+                            <img src="./imgs/linkedin.png" alt="LinkedIn" width="48px">
+                        </a>
+                        <a>
+                            
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero-yellow">
+                <img src="./portrait/316975cb-c879-44f2-a0b6-c680c5e62fa6.png" width="100%" />
+            </div>
+
+        </section>
+        <section class = "logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/c++.svg.png" />
+                    <img src = "./imgs/C_Programming_Language.svg.png" />
+                    <img src="./imgs/Unreal_Engine_Logo.svg.png" />
+                    <img src="./imgs/python.png" />
+                    <img src="./imgs/vscode.png" />
+                    <img src="./imgs/Figma.png" />
+                    <img src="./imgs/adobePremiere.png" />
+                    <img src="./imgs/download.jpg" />
+                    <img src="./imgs/download-1.jpg" />
+                    <img src="./imgs/Blender_logo_no_text.svg.png" />
+                    <img src="./imgs/c++.svg.png" />
+                    <img src = "./imgs/C_Programming_Language.svg.png" />
+                    <img src="./imgs/Unreal_Engine_Logo.svg.png" />
+                    <img src="./imgs/python.png" />
+                    <img src="./imgs/vscode.png" />
+                    <img src="./imgs/Figma.png" />
+                    <img src="./imgs/adobePremiere.png" />
+                    <img src="./imgs/download.jpg" />
+                    <img src="./imgs/download-1.jpg" />
+                    <img src="./imgs/Blender_logo_no_text.svg.png" />
+                </div>
+            </div>
+        </section>
+        <section class = "skill container" id = "skill-section">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class = "holder-blue">
+                <div class ="left-column">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Unreal Engine</li>
+                        <li>Blender</li>
+                        <li>Figma</li>
+                        <li>Adobe Premiere</li>
+                        <li>Adobe Audition</li>
+                        <li>Logic Pro X</li>
+                        <li>Final Cut Pro X</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        I’m a second-year student majoring in cognitive science (with a minor in CS). Besides, my keen interest revolves around cognitive science (philosophy of mind +	linguistics + psychology), I’ve also delved into several game development projects on my own, working primarily with Unreal Engine and C++.	
+                    </p>
+                    <p>
+                        Currently, I’m working on a hybrid 2D-3D pixel game using plugins such as Paper-2D and Paper-ZD. The majority of the game will be created from scratch, including a dialogue system with a linked-list-like data structure to hold different dialogue paths.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class = "work-experience container" id = "project-section">
+            <h2>
+                <small>Recent</small>
+                Projects
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/young-content-creator-girl-editing-video-her-laptop-working-from-home_1268-17373.jpg" 
+                            width="100%"/>
+                            <figcaption>Youtube</figcaption>
+                        </div>
+                    </figure>
+                    <h3>Youtube</h3>
+                    <div>2021-current</div>
+                    <p>Create, write and edit unique educational video essays covering pop-culture topics and philosophy. Gain Over 5,000 subscribers, 190k total views.</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/Screenshot 2024-10-31 at 2.46.01 PM.png"
+                            width="100%" />
+                            <figcaption>Game Jam</figcaption>
+                        </div>
+                    </figure>
+                    <h3>Mental Health Game Dev Champions</h3>
+                    <div>2024</div>
+                    <p>Develop and ship a fully functional 15-minute story-driven game. Utilize the unreal engine's blueprint visual scripting for all game-play mechanics.</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/blenderProject.png" 
+                            width="100%"/>
+                            <figcaption>3D Model</figcaption>
+                        </div>
+                    </figure>
+                    <h3>Blender Project</h3>
+                    <div>2024</div>
+                    <p>Modeling and Animating 3D model in blender from scartch. Utilizing different lighting and shading techniques to achieve retro pixelated style.</p>
+                </article>
+            </div>
+        </section>
+        <section class="bento container">
+            <h2>
+                <small>Other</small>
+                Completed Projects
+            </h2>
+            <div class = "bento-grid">
+                <div class = "bento-item">
+                    <img src="./imgs2/1.png" />
+                </div>
+                <div class = "bento-item">
+                    <img src="./imgs2/3.png" />
+                </div>
+                <div class = "bento-item">
+                    <img src="./imgs2/2.png" />
+                </div>
+                <div class = "bento-item">
+                    <img src="./imgs2/4.jpeg" />
+                </div>
+                <div class = "bento-item">
+                    <img src="./imgs2/5.jpeg" />
+                </div>
+                <div class = "bento-item">
+                    <img src="./imgs2/6.jpeg" />
+                </div>
+            </div>
+        </section>
+        <section class="form-section container">
+            <h2>
+                <small>Fill the Form to</small>
+                Contact Me!
+            </h2>
+            <div class="form" id = "contact-section">
+                <form id="contactForm" action="receipt.html" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

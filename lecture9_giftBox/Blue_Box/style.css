@@ -1,0 +1,22 @@
+html {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e9f4c8;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 80%;
+    border: red 2px dashed;
+    height: 100vh;
+    text-align: center;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    /* height: auto; */
+    /* display: block; */
+    margin: auto;
+}
